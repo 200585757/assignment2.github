@@ -8,6 +8,7 @@
     border: 5px solid black;
 }
 
+/*class glow to glow the releasing date*/
 .glow{
     position:absolute;
     text-align: center;
@@ -30,6 +31,7 @@
     }
 }
 
+/*label3 class to style by*/
 .label3{
     text-size-adjust: 100%;
     position:absolute;
@@ -40,9 +42,9 @@
     font-style: italic;
     color: #5b2c2c;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-
 }
 
+/*lang class to styles pruducing team member*/
 .lang{
     position:absolute;
     text-align: center;
@@ -54,6 +56,7 @@
     font-display: 'trajan', serif;
     text-shadow: 3px 3px 4px rgba(7, 1, 1, 0.5);
 }
+
 /*body styles*/
 body{
     font-family: 'Arial', sans-serif;
