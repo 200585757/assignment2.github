@@ -1,0 +1,152 @@
+/*External CSS code*/
+.img2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 99%;
+    height: 87%;
+    border: 5px solid black;
+}
+
+.glow{
+    position:absolute;
+    text-align: center;
+    bottom: 75%;
+    text-decoration: 5px solid;
+    color: black;
+    left: 37%;
+    font-size: 30px;
+    color: #f5d6d6;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 30px #a13232, 0 0 40px #f30101, 0 0 50px #f500cc, 0 0 60px #f700d2, 0 0 70px #f400d7, 0 0 80px #f702c6, 0 0 90px #fc01c9;
+    }
+        
+    to {
+        text-shadow: 0 0 20px #b44242, 0 0 30px #ee0202, 0 0 45px #e71cae, 0 0 50px #df1abe, 0 0 60px #d619ba, 0 0 70px #dd17cd, 0 0 80px #d10ab9;
+    }
+}
+
+.label3{
+    text-size-adjust: 100%;
+    position:absolute;
+    text-align: center;
+    top: 75%;
+    left: 5%;
+    font-size: 45px;
+    font-style: italic;
+    color: #5b2c2c;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.lang{
+    position:absolute;
+    text-align: center;
+    top: 85%;
+    font-size: 5px solid;
+    color: #6051ac;
+    left: 10%;
+    font-style: italic;
+    font-display: 'trajan', serif;
+    text-shadow: 3px 3px 4px rgba(7, 1, 1, 0.5);
+}
+/*body styles*/
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #fbf8f8;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../image/india.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*division with class mydiv styles for all the sections*/
+.mydiv{
+    width: 55%;
+    display: inline-block;
+}
+
+/*division with class mydiv2 styles for image */
+.mydiv2{
+    width: 45%;
+    float: right;
+}
+
+/*header styles*/
+header {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    }
+
+/*section styles*/
+section {
+    margin-top: 20px;
+}
+
+/*each section with class subdiv*/
+.subdiv{
+    padding: 15px;
+}
+
+/*heading styles*/
+h1 {
+    color: #f70909;
+}
+
+h2 {
+    color: #2e1754;
+}
+
+/*paragraph styles*/
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*styles for the links*/
+a {
+    color: #009900;
+    text-decoration:underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/*label styles*/
+label {
+    font-style: italic;
+    color:darkblue;
+    font-weight: bold;
+}
+
+/*figure styles*/
+figure {
+    font-style: italic;
+    text-align: right;
+}
+
+/*image styles*/
+.img1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid black;
+}
+
+/*footer styles*/
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
